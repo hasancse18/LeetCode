@@ -1,3 +1,6 @@
+ #include<bits/stdc++.h>
+ using namespace std;
+
  vector<int> productExceptSelf(vector<int>& nums) {
         int n=nums.size();
         vector<int>vl(n,1),vr(n,1);
@@ -13,4 +16,8 @@
             nums[i]=vl[i]*vr[i];
         }
         return nums;
+    }
+    int main()
+    {
+        
     }
